@@ -1,3 +1,13 @@
+:root {
+    --cor-01: #f9f9f9;
+}
+
+
+
+nav .row {
+    height: 0;
+}
+
 .btn-link {
     text-decoration: none;
     font-weight: 700;
@@ -6,8 +16,8 @@
 }
 
 header {
-    background-image: url('../img/banner_desktop.png');
     height: 80vh;
+    background-image: url('../img/banner_desktop.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -41,14 +51,23 @@ li {
 
 section {
     margin: auto;
+    height: 100vh;
+}
+
+#icones img {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .icone {
+    padding: 5rem 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* border: 2px solid red; */
 }
 
 .icone a {
@@ -56,7 +75,13 @@ section {
     font-weight: 700;
 }
 
-/* .icone span {
+.icone span {
     font-size: 2rem;
-    display: flex;
-} */
+} 
+
+button {
+    padding: 0.5rem 1rem ;
+    background-color: #c8062d;
+    color: white;
+    font-weight: 700;
+}
