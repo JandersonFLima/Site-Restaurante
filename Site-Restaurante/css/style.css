@@ -10,12 +10,19 @@ header {
     height: 80vh;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     font-weight: 700;
 
 }
+
+.input-group {
+    width: 20%;    
+}
+
+
 
 nav .row {
     height: 0;
@@ -27,7 +34,29 @@ nav .row {
     flex-direction: column;
 }
 
-.modal-footer li {
+li {
     list-style: none;
 
 }
+
+section {
+    margin: auto;
+}
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icone a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* .icone span {
+    font-size: 2rem;
+    display: flex;
+} */
